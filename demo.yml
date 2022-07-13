@@ -1,0 +1,16 @@
+title: floy-demo
+version: 1.0.0
+workflows:
+  greeting:
+    - echo Welcome to floy!
+  get_node_version:
+    - node -v
+  waiting_3s:
+    - sleep 3
+  clone_floy:
+    - git clone https://github.com/leegeunhyeok/floy.git
+    - cd floy
+  download_dependencies:
+    - npm install
+  finish:
+    - echo Done
