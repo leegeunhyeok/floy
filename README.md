@@ -1,6 +1,12 @@
+<div align="center">
+
 # floy
 
 commands flow executer
+
+<img alt="floy" src="https://user-images.githubusercontent.com/26512984/178798194-12b2b340-0964-4aeb-85fc-e6ce0ae60074.png">
+
+</div>
 
 ## Installation
 
@@ -38,10 +44,6 @@ npm install -g floy
   ```bash
   floy -f workflow.yml
   ```
-
-![preview](https://user-images.githubusercontent.com/26512984/178695299-751b0f60-5142-4f3b-9a3e-b41d20cc6838.png)
-
-
 ## LICENSE
 
 [MIT](./LICENSE)
